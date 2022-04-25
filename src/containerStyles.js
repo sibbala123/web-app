@@ -43,10 +43,7 @@ export default makeStyles((theme) => ({
     alignItems: 'center',
    
   },
-  label:{
-    fontWeight: '100',
-    color:'blue'
-  },
+  
  template : {
 position:'absolute',
 right:'0'

@@ -1,13 +1,36 @@
 import React from 'react';
 import { CSVLink } from "react-csv";
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 const Template = () =>{
 
 const csvData = [
-    ["/id","/searchResultState","/duns","/registrationNumber","/Street address line1","/Street address line2","/countryISOAlpha2Code","/postalCode","/addressRegion","/addressCounty","/customerReference1","/Customer reference 2","/Customer reference 3","/Customer reference 4","/Customer reference 5"],
+    ["inLanguage","duns",
+    "registrationNumber","registrationNumberType","name","streetAddressLine1","streetAddressLine2","countryISOAlpha2Code","postalCode","addressLocality","addressRegion"
+  ,"addressCounty","telephoneNumber","url","email","customerBillingEndorsement","customerReference1","customerReference2",
+  "customerReference3","customerReference4","customerReference5","candidateMaximumQuantity","confidenceLowerLevelThresholdValue","exclusionCriteria","isCleanseAndStandardizeInformationRequired"]
 ]
    
  return (
